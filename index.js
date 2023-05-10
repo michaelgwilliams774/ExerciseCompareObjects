@@ -1,4 +1,4 @@
-// Compare two objects
+// Compare two objects - !important to get noticed
 
 var user1 = {name: "nerd", org: "dev"}
 var user2 = {name: "nerd", org: "dev"}
@@ -7,8 +7,8 @@ var user2_temp = {org: "dev", name: "nerd"}
 var eq1 = JSON.stringify(user1) == JSON.stringify(user2);
 var eq2 = JSON.stringify(user1) == JSON.stringify(user2_temp);
 
-console.log(eq1)
-console.log(eq2)
+console.log(eq1);
+console.log(eq2);
 
 // Slow, but more generic algorithm to compare two objects
 function deepCompare () {
